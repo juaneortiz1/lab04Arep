@@ -77,6 +77,7 @@ http://localhost:8087
 For deployment on an EC2 instance, access the application using the public DNS or IP address provided by AWS:
 
 ec2-54-145-198-255.compute-1.amazonaws.com
+![image](https://github.com/user-attachments/assets/af612688-5dca-4009-9bfa-a31fb7f74db9)
 
 
 
@@ -84,6 +85,9 @@ ec2-54-145-198-255.compute-1.amazonaws.com
 The web application allows users to input any text string, which is then distributed evenly among the log services using a Round Robin load-balancing algorithm. The application returns the last 10 stored inputs from the database, along with their creation timestamps, in JSON format.
 
 
+
+
+![image](https://github.com/user-attachments/assets/2d4cdba1-9491-4d8c-8c4e-0dd95e1ad3be)
 
 ---
 
